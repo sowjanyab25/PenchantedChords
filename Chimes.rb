@@ -16,7 +16,7 @@ use_synth :sine
   sleep [0.125, 0.25].choose
   play ns.choose, amp: 0.3, pan:[-1, 1].choose, release: 1
 end
-
+//Copyrights@SowjanyaBavisetty
 with_fx :whammy do
   use_synth :dark_ambience
   50.times do
